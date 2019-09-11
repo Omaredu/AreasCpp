@@ -2,6 +2,7 @@
 //
 
 #include "Shape.h"
+#include "Triangle.h"
 
 using namespace std;
 
@@ -20,6 +21,12 @@ int main()
 
 	cout << figura.area() << endl;
 	cout << figura.perimeter() << endl;
+
+	cout << "\n Si su figura es un triangulo... \n" << endl;
+	
+	Triangle triangulo(width, height);
+	
+	cout << triangulo.area() << endl;
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
